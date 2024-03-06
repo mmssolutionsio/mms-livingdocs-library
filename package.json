@@ -1,0 +1,16 @@
+{
+  "name": "multivisio-ld",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack --display-error-details",
+    "watch": "sass --watch --update --style=compressed --no-source-map ./source/assets/scss/default.scss:./source/assets/css/style.css"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.14",
+    "copy-webpack-plugin": "^4.0.1",
+    "livingdocs-manager": "^4.1.2",
+    "sass": "^1.58.3",
+    "webpack": "^2.2.1"
+  }
+}

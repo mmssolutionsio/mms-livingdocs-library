@@ -1,0 +1,23 @@
+<script type="ld-conf">
+	{
+		"name": "signature-item",
+		"label": "Signature item",
+        "iconUrl": "https://placehold.jp/100x100.png",
+		"allowedParents": ["signature-container"],
+		"directives": {
+			"image": {
+				"imageRatios": ["1:1", "4:3", "16:9"],
+				"allowOriginalRatio": true
+			}
+		}
+	}
+</script>
+<div class="ld-signature__item">
+	<img class="ld-signature__img" doc-image="image" />
+	<p class="ld-signature__name" doc-editable="name">
+		Vorname Nachname
+	</p>
+	<p class="ld-signature__position" doc-editable="position">
+		Position
+	</p>
+</div>
